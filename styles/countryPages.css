@@ -1,0 +1,39 @@
+.logo {
+    max-width: 10%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.countryInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.infoCard {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 5px 20px;
+    border: ridge 3px rgb(239, 78, 54);
+    margin: 0px 5px;
+    flex: 1;
+}
