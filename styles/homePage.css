@@ -1,0 +1,30 @@
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPageLogo {
+    text-align: center;
+}
+
+.mainPageNav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.countryCard {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.countryCard img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.countryCard h2 {
+    color: rgb(239, 78, 54);
+}
